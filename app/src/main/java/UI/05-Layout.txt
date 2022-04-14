@@ -1,0 +1,35 @@
+Linear Layout
+- 부모가 될 수 있음 = 컨테이너뷰
+- 자식의 위치를 설정하는 뷰
+    - 가로, 세로
+
+- 속성
+    - orientation: 자식뷰의 방향을 설정(가로, 세로)
+    - weight : 자식이 차지할 크기의 비율을 설정
+
+** 크기를 설정하는 특수한 키워드
+- match_parent : 부모와 동일
+- wrap_content : 내용의 크기만큼 설정
+
+
+RelativeLayout
+- 부모가 될 수 있음 = 컨테이너뷰
+- 자식의 위치를 설정하는 뷰
+    - 기준점을 중심으로 자식뷰를 배치
+        - 기준점 : 부모, 자식뷰
+- 기준점을 표시하는 방법
+    - id
+
+ConstraintLayout
+- 제약을 통해서 뷰를 배치하는 컨테이너뷰
+- RelativeLayout에서 할 수 있는 모든 것이 가능하다.
+- 기능이 엄청나게 많다.
+- 반대방향으로 작용하는 두개의 제약을 동시에 적용하면 두 제약의 가운데에 배치된다.
+
+**상대적 위치 배치(relative layout)
+- layout_constraint + 제약이름
+- layout_constraintLeft_toLeftOf
+    Left_toLeftOf : Left > 속성이 적용되는 뷰의 Left / toLeftOf > of에 올 뷰의 Left
+**
+
+**
