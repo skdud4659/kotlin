@@ -30,6 +30,37 @@ ConstraintLayout
 - layout_constraint + 제약이름
 - layout_constraintLeft_toLeftOf
     Left_toLeftOf : Left > 속성이 적용되는 뷰의 Left / toLeftOf > of에 올 뷰의 Left
-**
+- RelativeLayout 과는 다르게 제약이 없으면 오류가 뜬다.
+**여백
+- 해당 방향으로 여백을 두기 위해서는 해당 방향에 제약이 있어야 한다.
+- layout_marginLeft = 100dp
+- layout_constraintLeft_toLeftOf = parent
+**Bias(치우침) = (css - float?! 단, 비율로)
+- layout_constraintHorizontal_bias = 값
+- layout_constrainVertical_bias = 값
+- 값은 비율로 표시
+    - 1인 경우 100%
+    - 50% > 변화 없음.
+    - 값을 줄 경우 움직일 수 있도록 지정해줘야한다.
+        - layout_constraintLeft_toLeftOf인 경우 왼쪽에 맞춰져있기 때문에 움직일 수 없음
+            > layout_constraintRight_toRightOf를 추가하여 움직일 수 있는 범위를 정해준다.(반대방향으로 작용하는 두 개의 제약을 동시에 둘 경우 가운데애 배치)
+** 비율로 설정 = (css - justify contents)
+- layout_constraintHorizontal_weight
+- layout_constrainVertical_weight
+- 비율을 주려는 대상의 세로/가로의 크기는 0dp로 해야 한다.
+** 원형 위치 설정(Circular Positioning) - 시계방향 배치
+- layout_constraintCircle: 기준
+- layout_constraintCircleRadius: 두 중심 간의 거리
+- layout_constraintCircleAngle: 각도
+- ConstraintLayout 의 큰 장점
+** Chain
+- 좌,우 속성을 부여하여 선택지가 여러개 발생할 수 있을 때 chainStyle 로 지정해준다.
+- Spread(기본값) > space-evenly
+- Spread Inside > space-between
+- Packed : 한 세트로 붙여준다.
 
-**
+FrameLayout
+- 부모가 될 수 있음 = 컨테이너뷰
+- 액자에 뷰가 들어있다라고 생각.
+- 먼저 작성된 코드(xml)가 맨뒤에 깔린다. > z-index
+- 중첩이 필요할 경우 사용.
