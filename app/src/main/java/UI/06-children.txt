@@ -20,3 +20,4 @@ Gravity(중력)
 ** 두 가지 속성을 부여하는 방법
 - gravity = "top|right"
 
+
