@@ -1,0 +1,17 @@
+(Kotlin)
+Scope Function
+- 동작의 원리는 모르더라도 언제 사용하면 좋은지 알고 사용해도 가치가 있다.
+- { 본문 }
+
+apply, also, run(with) / let
+
+val victor = Person().apply {
+    name = "victor"
+    age = 20
+}
+
+- apply / also > 처리가 끝나면(스코프 끝) 인스턴스(객체)를 반환한다.
+- run(with) / let > 처리가 끝나면 최종값을 반환한다.
+
+- apply / run(with) > this > 스코프 외부의 변수명과 혼동할 수 있다.
+- also / let > it > 스코프 외부의 변수명과 혼동 방지
