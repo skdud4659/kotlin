@@ -1,0 +1,22 @@
+********개념 다시 찾아보긔................
+
+context
+- 문맥 > 앱의 흐름
+
+책 (application context)
+
+    chapter1 (activity context)
+        chapter1-1
+        chapter1-2
+
+    chapter2 (activity context)
+        chapter2-1
+        chapter2-2
+
+
+ ** application context
+ - 하나만 존재
+
+ ** activity context
+ - activity 마다 존재
+ - context를 구현하고 기능을 추가한 것 > activity
