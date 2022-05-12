@@ -82,5 +82,21 @@ class intent_one : AppCompatActivity() {
         startActivityLauncher.launch(intent)
       }
     }
+  
+    // 명시적 인텐트 + 이미지 URI 전달
+    (findViewById<TextView>(R.id.intent6)).apply {
+      this.setOnClickListener {
+        val intent = Intent(this@intent_one, intent_two::class.java).apply {
+          // 내부에 있는 파일 선언
+          val imageUrl = Uri.parse("android.resource://" +packageName+"/drawable/ic_launcher_background")
+          // 이미지는 아래 세가지 액션을 수행.
+          this.action = Intent.ACTION_SEND
+          this.putExtra(Intent.EXTRA_STREAM, imageUrl)
+          this.setType("image/*")
+        }
+  
+        startActivity(intent)
+      }
+    }
   }
 }

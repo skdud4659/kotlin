@@ -1,9 +1,12 @@
 package com.example.myapplication
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Parcelable
 import android.util.Log
+import android.widget.ImageView
 import android.widget.TextView
 
 class intent_two : AppCompatActivity() {
@@ -34,5 +37,12 @@ class intent_two : AppCompatActivity() {
         if(data !== null) {
             Log.d("data", data)
         }
+        
+        val imageView = findViewById<ImageView>(R.id.imageView)
+        // 이미지뷰에서 src가 필요하기 때문에 uri로 변환하여 받아야한다.
+        val uri = Uri.parse(intent.getParcelableExtra<Parcelable>(Intent.EXTRA_STREAM).toString())
+        imageView.setImageURI(uri)
+        
+        
     }
 }

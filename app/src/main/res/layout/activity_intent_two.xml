@@ -14,4 +14,10 @@
         android:background="@color/purple_500"
         android:text="화면이동 성공!" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_background" />
+
 </androidx.appcompat.widget.LinearLayoutCompat>

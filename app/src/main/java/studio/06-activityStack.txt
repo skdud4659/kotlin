@@ -1,0 +1,37 @@
+activity stack
+
+** 기본 : 후입선출 (LIFO, Last In First OUt)
+a(foreground) > b(foreground) a > c(foreground) b a >뒤로가기 b(foreground) a >뒤로가기 a(foreground)
+- 스택이 쌓인다.
+- 스택은 될 수 있으면 건들지 않는게 좋다. > 스택이 꼬여 사용자가 원하는대로 나오지 않을 가능성이 크기 때문에 권장.
+- 만약 수정할 경우 분명한 의도를 가지고 적용해야 한다.
+- background에 있는 액티비티도 관리할 수 있다.
+
+** stack 관리
+- Manifest
+    - launchMode > 박스가 추가되기 때문에 관리하기가 어렵다.
+        - standard(LIFO) > 동일한 activity를 call 하면 계속 그 위에 쌓인다. (최종은 마지막 박스)
+            1 > 1 2 > 1 2 3 > 1 2 3 3 > 1 2 3 3 3
+        - singleTop > top과 동일한 activity를 call 했을 경우 이어서 쌓이지 않는다. top에 있지 않을 경우 standard와 동일.
+            1 > 1 2 > 1 2 3
+        - singleTask > 단일 박스가 하나 추가된다. (최종은 singleTask + 이 전 최종의 단계) / 단일 박스에도 activity를 쌓을 수 있다.
+            1 > 1 2 > 3
+        - singleInstance > 단일 박스가 하나 추가된다. (최종은 singleTask + 이 전 최종의 단계) / 단일 박스에는 activity를 쌓을 수 없다.
+
+- Intent Flag 이용
+    - FLAG_ACTIVITY_NEW_TASK(=singleTask)
+    - FLAG_ACTIVITY_SINGLE_TOP(=singleTop)
+    - FLAG_ACTIVITY_NO_HISTORY
+        > 호출된 액티비티는 스택에 쌓이지 않는다. (한번만 보이고 뒤로가기 했을 때 보이지 않아야 할 때)
+        ex. 로딩
+    - FLAG_ACTIVITY_REORDER_TO_FRONT
+        > 호출된 액티비티가 스택에 존재할 경우 최상위로 올려준다.
+        a b c > b 호출  > a c b
+    - FLAG_ACTIVITY_CLEAR_TOP
+        > 호출한 액티비티 위의 액티비티들은 삭제한다.
+        a b c > a 호출 > a
+    - FLAG_ACTIVITY_NO_ANIMATION
+        > 화면 전환 시 나오는 깜빡임 등의 애니메이션 생략
+
+    **setFlags > flag 설정
+    **addFlags > flag 추가
