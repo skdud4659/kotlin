@@ -1,5 +1,5 @@
 fragment => components
-- 모듈식 (재사용)
+- 모듈식 (재사용) > 하나를 만들어서 여러 곳에서 사용이 가능하다.
 - fragmentActivity 내의 어떤 동작 또는 사용자 인터페이스의 일부를 나타낸다.
 - 여러개의 fragment를 하나의 액티비티에 결합하여 창이 여러 개인 UI를 빌드할 수 있으며 하나의 fragment를 여러 액티비티에서 재사용할 수 있다.
 - 액티비티의 모듈식 섹션
@@ -29,11 +29,20 @@ fragment => components
 - onDetach
     - fragment가 액티비티와 연결이 끊어지는 중일 때 호출.
 
-
 ** 생성방법
+> fragment 독립적으로 존재하나 activity로 가져오는 방법.
+> id 반드시 필요.
 - xml
 - 코드
 
-** 데이터 전달하는 방법
 
-** activity와 통신하는 방법.
+
+
+
+** commit = 끝
+1. commit
+    - 저장을 한 경우 실행할 수 없다. (IllegalStateException 오류 발생 가능)
+    - 작업을 메인 쓰레드에 예약 후 실행.
+2. commitAllowingStateLoss : 저장을 한 경우 예외가 발생하지 않고 그냥 손실된다.
+3. commitNow : 예약없이 바로 실행
+4. commitNowAllowingStateLoss
