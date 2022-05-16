@@ -13,10 +13,10 @@ class asyncActivity : AppCompatActivity() {
   }
 }
 
-class BackgroundAsyncTask(
-  val progressbar: ProgressBar,
-  val progressText: TextView
-): AsyncTask<Int, Int, Int>() {
-  // deprecated > 더 이상 사용을 권장하지 않는다.
-  // 코루틴으로 해결 가능. > 특정 기능을 뭉쳐서 명칭.
-}
+//class BackgroundAsyncTask(
+//  val progressbar: ProgressBar,
+//  val progressText: TextView
+//): AsyncTask<Int, Int, Int>() {
+//  // deprecated > 더 이상 사용을 권장하지 않는다.
+//  // 코루틴으로 해결 가능. > 특정 기능을 뭉쳐서 명칭.
+//}

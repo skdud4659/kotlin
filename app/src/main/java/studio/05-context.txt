@@ -16,7 +16,13 @@ context
 
  ** application context
  - 하나만 존재
+ - application이 살아있는 동안 유지.
+ - activity 관찰
+ - application을 상속받은 class를 만들어 관리.
+ - 굳이 db에 저장하지 않고 전체적인 application에서만 사용하는 경우 여기에서 사용하는 것이 좋음.
+
 
  ** activity context
  - activity 마다 존재
+ - activity가 유지되는 동안에만 유지.
  - context를 구현하고 기능을 추가한 것 > activity
