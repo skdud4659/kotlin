@@ -1,0 +1,13 @@
+TabLayout & Pager
+- 주로 같이 사용되는 경우가 많다.
+- 하단바 = tabLayout
+    > 하단바 클릭 시 변경되는 화면 = pager
+
+** tabLayout
+
+
+** pager
+- 화면 전환
+
+** Adapter
+- pager와 tabLayout을 연결시켜주는 역할.

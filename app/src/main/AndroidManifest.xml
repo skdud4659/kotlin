@@ -10,7 +10,13 @@
     android:supportsRtl="true"
     android:theme="@style/Theme.MyApplication">
     <activity
+      android:name=".tabLayoutPagerActivity"
+      android:exported="false" />
+    <activity
       android:name=".recyclerView"
+      android:exported="false" />
+    <activity
+      android:name=".tabLayoutPagerSimpleActivity"
       android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -23,12 +29,10 @@
       android:exported="false" />
     <activity
       android:name=".asyncActivity"
-      android:exported="true">
-    </activity>
+      android:exported="true" />
     <activity
       android:name=".FragmentActivity"
-      android:exported="true">
-    </activity>
+      android:exported="true" />
     <activity
       android:name=".stack_three"
       android:exported="false"
@@ -47,8 +51,7 @@
       android:exported="false" />
     <activity
       android:name=".stack_one"
-      android:exported="true">
-    </activity>
+      android:exported="true" />
   </application>
 
 </manifest>

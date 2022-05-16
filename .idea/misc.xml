@@ -16,6 +16,8 @@
         <entry key="app/src/main/res/layout/activity_stack_one.xml" value="0.47239583333333335" />
         <entry key="app/src/main/res/layout/activity_stack_three.xml" value="0.47239583333333335" />
         <entry key="app/src/main/res/layout/activity_stack_two.xml" value="0.47239583333333335" />
+        <entry key="app/src/main/res/layout/activity_tab_layout_pager.xml" value="0.25987841945288753" />
+        <entry key="app/src/main/res/layout/activity_tab_layout_pager_simple.xml" value="0.534375" />
         <entry key="app/src/main/res/layout/activity_thread.xml" value="0.38177083333333334" />
         <entry key="app/src/main/res/layout/activity_view_control.xml" value="0.38177083333333334" />
         <entry key="app/src/main/res/layout/car_item.xml" value="0.1" />
