@@ -23,7 +23,7 @@ class FragmentActivity : AppCompatActivity() {
       bundle.putString("data", "fragment로 데이터 전달하기!")
       // 번들을 fragment의 argument로 등록
       fragmentOne.arguments = bundle
-      transaction.replace(R.id.root, fragmentOne)
+      transaction.replace(R.id.root, fragmentOne, "fragment_first_tag")
       transaction.commit() // 끝
     }
   
@@ -32,6 +32,16 @@ class FragmentActivity : AppCompatActivity() {
       val transaction = fragmentManager.beginTransaction() // 시작
       transaction.remove(fragmentOne)
       transaction.commit() // 끝
+    }
+    
+    findViewById<TextView>(R.id.access_fragment).setOnClickListener {
+      // XML에 있는 fragment를 찾는 방법
+//     val fragmentFirst = supportFragmentManager.findFragmentById(R.id.fragment_activity) as Fragment_one
+//      fragmentFirst.printTestLog()
+      
+      // XML에 없는 fragment를 찾는 방법 > 코드상 붙였을 경우 태그를 단 fragment를 표출해두고 call 해야 작동.
+      val fragmentFirst = supportFragmentManager.findFragmentByTag("fragment_first_tag") as Fragment_one
+      fragmentFirst.printTestLog()
     }
   }
   

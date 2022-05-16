@@ -36,4 +36,8 @@ class Fragment_one: Fragment() {
     val data: String? = arguments?.getString("data")
     Log.d("testt", "test" + data)
   }
+  
+  fun printTestLog() {
+    Log.d("testt", "print test log from fragment")
+  }
 }

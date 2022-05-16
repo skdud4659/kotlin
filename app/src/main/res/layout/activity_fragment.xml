@@ -33,4 +33,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />
 
+  <TextView
+    android:id="@+id/access_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:text="access_fragment"
+    android:gravity="center"
+    android:background="@color/purple_200" />
+
 </LinearLayout>
