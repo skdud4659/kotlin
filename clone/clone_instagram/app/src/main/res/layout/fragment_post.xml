@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:orientation="vertical"
+  android:padding="23dp">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="10dp">
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      android:text="게시물 만들기" />
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      android:text="취소" />
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+  <ImageView
+    android:id="@+id/write_image"
+    android:layout_width="match_parent"
+    android:layout_height="344dp"
+    android:layout_marginBottom="31dp" />
+  <EditText
+    android:id="@+id/write_content"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:hint="문구 입력"
+    android:textSize="20dp"/>
+  <TextView
+    android:layout_width="114dp"
+    android:layout_height="42dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:text="게시"
+    android:textSize="18dp"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    android:background="@drawable/insta_login"/>
+
+</LinearLayout>
