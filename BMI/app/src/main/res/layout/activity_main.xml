@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="30dp"
+  tools:context=".MainActivity">
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="신장" />
+
+  <EditText
+    android:id="@+id/height"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal" />
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="체중" />
+
+  <EditText
+    android:id="@+id/weight"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="numberDecimal" />
+
+  <Button
+    android:id="@+id/btn_util"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="50dp"
+    android:text="확인하기" />
+
+</LinearLayout>
