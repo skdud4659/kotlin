@@ -24,7 +24,6 @@
         android:layout_marginTop="44dp"
         android:layout_marginRight="15dp"
         android:gravity="end"
-        android:text="11*22"
         android:textColor="@color/black"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,7 +38,6 @@
         android:layout_marginRight="15dp"
         android:layout_marginBottom="15dp"
         android:gravity="end"
-        android:text="20"
         android:textColor="#aaaaaa"
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@id/keypad"
@@ -315,4 +313,62 @@
                 android:textSize="24dp" />
         </TableRow>
     </TableLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/historyLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/keypad"
+        tools:visibility="visible">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/closeBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:onClick="closeHistoryBtn"
+            android:stateListAnimator="@null"
+            android:text="닫기"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/closeBtn"
+            app:layout_constraintBottom_toTopOf="@id/historyDel">
+            <LinearLayout
+                android:id="@+id/historyInner"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/historyDel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="38dp"
+            android:background="@color/green"
+            android:stateListAnimator="@null"
+            android:text="계산 기록 삭제"
+            android:onClick="historyDelBtn"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
