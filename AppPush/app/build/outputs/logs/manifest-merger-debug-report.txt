@@ -1,0 +1,609 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/nayeongkim/.gradle/caches/transforms-3/4d811d9894de58cc9ec6f1583418022c/transformed/core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.6.1] /Users/nayeongkim/.gradle/caches/transforms-3/67b23575d4ec61566ba43a6d372826bd/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nayeongkim/.gradle/caches/transforms-3/b26298839d357563569d2880fdf4207c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/nayeongkim/.gradle/caches/transforms-3/a55ed8d33dc99fc0ecdaac93ad828463/transformed/appcompat-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/34ad1a5cb18db22f35126b33e50e4a7d/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:17:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/4437a6f77c95c47274aaf138d78a6881/transformed/firebase-analytics-ktx-21.0.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:17:1-61:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/nayeongkim/.gradle/caches/transforms-3/631d15f43d61eb0c783f95d0e6111a7e/transformed/firebase-datatransport-18.1.4/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/b8477b2f6075ebfe2f34e945fcf616af/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/5b34a20cefbc3e323a2df3a6130b056a/transformed/transport-runtime-3.1.5/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/a92d361371ba416dc1216b7f60f4c105/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/86721b28da56249571700d471be24d6b/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/476af0e2f2b27a7cc1bfd2a292ff38fa/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/1d2930a7a79965cbb6871bdd417e7be2/transformed/firebase-installations-17.0.1/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/420f9f84f6f9a154897225be57d30c66/transformed/firebase-common-20.1.1/AndroidManifest.xml:15:1-40:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/a32e896fc68eb79d2c376ded0d521b01/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/cd308d673dc5a0bee274eb37fadf5085/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/8e9359343bb67bbbd0f61983eaec1654/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/6a4c7434f68a3916921d753854e5a0b7/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/a9ca13fc25c66b9e6887ef101c1de1f2/transformed/firebase-installations-interop-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/ba340ebc7313f7b2e6ddd4ecf2e9bb5a/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/93f5115b4ffa19682a6bc89fc9f7fae8/transformed/play-services-measurement-sdk-21.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/64a2a4a95abb559aaae26905bec8c0e2/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nayeongkim/.gradle/caches/transforms-3/60fa7b82517310776c4ef5697cfe8ef8/transformed/play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e1c8c6e6e877bb1ef7c71fd5ed2d7897/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/412aabec82265b60ab397efd1287e1cb/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/478b41dc645dec646de7dc2945affced/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/44b8ee52dca70985fd76f9e58a003d8a/transformed/play-services-measurement-base-21.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/ba8d990271470c0301420875ab4b23ac/transformed/play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/nayeongkim/.gradle/caches/transforms-3/2d725a430a7a4501c794f7568beb7d33/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/nayeongkim/.gradle/caches/transforms-3/a578a3e29d25e7991b518fa209f9655d/transformed/activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/nayeongkim/.gradle/caches/transforms-3/7b9a1d6ca739278c8a3d94aa48258ac5/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/74d1e29d83de438b055be3a71e39ee65/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/0f7be08ad9ad4bbb6d68fc8f33000e8d/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/e9aa9a5ba5c629516bbb2bc5926dfef0/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/bd16ff7a313ed3db3fba9230544428c6/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/0ca415373ba5fa6f291ce18e64d6ddd4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/nayeongkim/.gradle/caches/transforms-3/7f38254a8e0890a7940e1dd2f1ed7f1f/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/09c7b1df083b225ead64524570248875/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/383879d62bc1da095369b72cfa66da7c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/fceeabf3cf42d825f0e2dd9ba475ed79/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/ac23efced9b07734696bc6fee29c68d7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/28777e7f27fe0682b2eb7d360ee2507b/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/184f3905bfb0a7c0b89f68d254030be4/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/0ef0df4192c693b5aab01cb3fc78918a/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.8.0] /Users/nayeongkim/.gradle/caches/transforms-3/1fe1424c39e010d38f00920f01d67163/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/cbeace3ea65798d92cdedd366906eb04/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/nayeongkim/.gradle/caches/transforms-3/ba6f039f195401e7b21999bba8b01206/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/f2baea666d3fa9818ec155e7c3e1125f/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/nayeongkim/.gradle/caches/transforms-3/afb51f8cf2da2d6f468e6aeb3d640b2b/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/b580a9c84da5cee9d6fa2262702fa45f/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/a5c0aaf553e6f2275018bfbdb9719b30/transformed/firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/8d6edc8b3517cda970aa9d2811931e17/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nayeongkim/.gradle/caches/transforms-3/55d0b49c30dad1812bce8d6431afe018/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/125c92fd5657cd8dca1b4e8fa8bb055a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/eec50ca15886977ec037c00d880f6428/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/a82e65caed71655ac4629086f9005daa/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/nayeongkim/.gradle/caches/transforms-3/5f4d35223edab27d3b17ed5858db6da1/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/nayeongkim/.gradle/caches/transforms-3/32ea862d898d23f7b8baf007583ce275/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/5ba08e7addf028e9d19a9d0358d58edd/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/11eeaa94e59a835eb5fd7df39c4bed37/transformed/transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/f8e1517e8709b179234ee66c4c7c4005/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/ecd282f6e7810760b56fe4416a9b7395/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/c906b583e31b2c8d524097c581f1a8ce/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/023459b500c5b6b43604c1da69093036/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/c08a69fcc05b4cae3560315c19cad20c/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:3:3-32
+		INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:5:3-27:17
+MERGED from [com.google.android.material:material:1.6.1] /Users/nayeongkim/.gradle/caches/transforms-3/67b23575d4ec61566ba43a6d372826bd/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.1] /Users/nayeongkim/.gradle/caches/transforms-3/67b23575d4ec61566ba43a6d372826bd/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nayeongkim/.gradle/caches/transforms-3/b26298839d357563569d2880fdf4207c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nayeongkim/.gradle/caches/transforms-3/b26298839d357563569d2880fdf4207c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/34ad1a5cb18db22f35126b33e50e4a7d/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:25:5-33:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/34ad1a5cb18db22f35126b33e50e4a7d/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:25:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/4437a6f77c95c47274aaf138d78a6881/transformed/firebase-analytics-ktx-21.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/4437a6f77c95c47274aaf138d78a6881/transformed/firebase-analytics-ktx-21.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/nayeongkim/.gradle/caches/transforms-3/631d15f43d61eb0c783f95d0e6111a7e/transformed/firebase-datatransport-18.1.4/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/nayeongkim/.gradle/caches/transforms-3/631d15f43d61eb0c783f95d0e6111a7e/transformed/firebase-datatransport-18.1.4/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/b8477b2f6075ebfe2f34e945fcf616af/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/b8477b2f6075ebfe2f34e945fcf616af/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/5b34a20cefbc3e323a2df3a6130b056a/transformed/transport-runtime-3.1.5/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/5b34a20cefbc3e323a2df3a6130b056a/transformed/transport-runtime-3.1.5/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/86721b28da56249571700d471be24d6b/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/86721b28da56249571700d471be24d6b/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/476af0e2f2b27a7cc1bfd2a292ff38fa/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/476af0e2f2b27a7cc1bfd2a292ff38fa/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/1d2930a7a79965cbb6871bdd417e7be2/transformed/firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/1d2930a7a79965cbb6871bdd417e7be2/transformed/firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/420f9f84f6f9a154897225be57d30c66/transformed/firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/420f9f84f6f9a154897225be57d30c66/transformed/firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/cd308d673dc5a0bee274eb37fadf5085/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/cd308d673dc5a0bee274eb37fadf5085/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/6a4c7434f68a3916921d753854e5a0b7/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/6a4c7434f68a3916921d753854e5a0b7/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/ba340ebc7313f7b2e6ddd4ecf2e9bb5a/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/ba340ebc7313f7b2e6ddd4ecf2e9bb5a/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/93f5115b4ffa19682a6bc89fc9f7fae8/transformed/play-services-measurement-sdk-21.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/93f5115b4ffa19682a6bc89fc9f7fae8/transformed/play-services-measurement-sdk-21.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/64a2a4a95abb559aaae26905bec8c0e2/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/64a2a4a95abb559aaae26905bec8c0e2/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nayeongkim/.gradle/caches/transforms-3/60fa7b82517310776c4ef5697cfe8ef8/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nayeongkim/.gradle/caches/transforms-3/60fa7b82517310776c4ef5697cfe8ef8/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e1c8c6e6e877bb1ef7c71fd5ed2d7897/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e1c8c6e6e877bb1ef7c71fd5ed2d7897/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/412aabec82265b60ab397efd1287e1cb/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/412aabec82265b60ab397efd1287e1cb/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/44b8ee52dca70985fd76f9e58a003d8a/transformed/play-services-measurement-base-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/44b8ee52dca70985fd76f9e58a003d8a/transformed/play-services-measurement-base-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/ba8d990271470c0301420875ab4b23ac/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/ba8d990271470c0301420875ab4b23ac/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/0f7be08ad9ad4bbb6d68fc8f33000e8d/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/0f7be08ad9ad4bbb6d68fc8f33000e8d/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.8.0] /Users/nayeongkim/.gradle/caches/transforms-3/1fe1424c39e010d38f00920f01d67163/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/nayeongkim/.gradle/caches/transforms-3/1fe1424c39e010d38f00920f01d67163/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/8d6edc8b3517cda970aa9d2811931e17/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/8d6edc8b3517cda970aa9d2811931e17/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nayeongkim/.gradle/caches/transforms-3/55d0b49c30dad1812bce8d6431afe018/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nayeongkim/.gradle/caches/transforms-3/55d0b49c30dad1812bce8d6431afe018/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/125c92fd5657cd8dca1b4e8fa8bb055a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/125c92fd5657cd8dca1b4e8fa8bb055a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /Users/nayeongkim/.gradle/caches/transforms-3/1fe1424c39e010d38f00920f01d67163/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:10:5-31
+	android:label
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:8:5-37
+	android:roundIcon
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:9:5-50
+	android:icon
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:7:5-39
+	android:allowBackup
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:6:5-31
+	android:theme
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:11:5-41
+activity#com.example.apppush.MainActivity
+ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:12:5-20:16
+	android:exported
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:14:7-30
+	android:name
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:13:7-35
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:15:7-19:23
+action#android.intent.action.MAIN
+ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:16:9-61
+	android:name
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:16:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:18:9-69
+	android:name
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:18:19-66
+service#com.example.apppush.MyFirebaseMessagingService
+ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:21:5-26:15
+	android:exported
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:22:7-31
+	android:name
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:21:14-56
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:23:7-25:23
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:24:9-69
+	android:name
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml:24:17-67
+uses-sdk
+INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/nayeongkim/.gradle/caches/transforms-3/4d811d9894de58cc9ec6f1583418022c/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/nayeongkim/.gradle/caches/transforms-3/4d811d9894de58cc9ec6f1583418022c/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/nayeongkim/.gradle/caches/transforms-3/67b23575d4ec61566ba43a6d372826bd/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/nayeongkim/.gradle/caches/transforms-3/67b23575d4ec61566ba43a6d372826bd/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nayeongkim/.gradle/caches/transforms-3/b26298839d357563569d2880fdf4207c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/nayeongkim/.gradle/caches/transforms-3/b26298839d357563569d2880fdf4207c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/nayeongkim/.gradle/caches/transforms-3/a55ed8d33dc99fc0ecdaac93ad828463/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/nayeongkim/.gradle/caches/transforms-3/a55ed8d33dc99fc0ecdaac93ad828463/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/34ad1a5cb18db22f35126b33e50e4a7d/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/34ad1a5cb18db22f35126b33e50e4a7d/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/4437a6f77c95c47274aaf138d78a6881/transformed/firebase-analytics-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/4437a6f77c95c47274aaf138d78a6881/transformed/firebase-analytics-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/nayeongkim/.gradle/caches/transforms-3/631d15f43d61eb0c783f95d0e6111a7e/transformed/firebase-datatransport-18.1.4/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/nayeongkim/.gradle/caches/transforms-3/631d15f43d61eb0c783f95d0e6111a7e/transformed/firebase-datatransport-18.1.4/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/b8477b2f6075ebfe2f34e945fcf616af/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/b8477b2f6075ebfe2f34e945fcf616af/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/5b34a20cefbc3e323a2df3a6130b056a/transformed/transport-runtime-3.1.5/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/5b34a20cefbc3e323a2df3a6130b056a/transformed/transport-runtime-3.1.5/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/a92d361371ba416dc1216b7f60f4c105/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/a92d361371ba416dc1216b7f60f4c105/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/86721b28da56249571700d471be24d6b/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/86721b28da56249571700d471be24d6b/transformed/firebase-analytics-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/476af0e2f2b27a7cc1bfd2a292ff38fa/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/476af0e2f2b27a7cc1bfd2a292ff38fa/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/1d2930a7a79965cbb6871bdd417e7be2/transformed/firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/1d2930a7a79965cbb6871bdd417e7be2/transformed/firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/420f9f84f6f9a154897225be57d30c66/transformed/firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/420f9f84f6f9a154897225be57d30c66/transformed/firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/a32e896fc68eb79d2c376ded0d521b01/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/a32e896fc68eb79d2c376ded0d521b01/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/cd308d673dc5a0bee274eb37fadf5085/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/cd308d673dc5a0bee274eb37fadf5085/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/8e9359343bb67bbbd0f61983eaec1654/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/8e9359343bb67bbbd0f61983eaec1654/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/6a4c7434f68a3916921d753854e5a0b7/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/6a4c7434f68a3916921d753854e5a0b7/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/a9ca13fc25c66b9e6887ef101c1de1f2/transformed/firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/a9ca13fc25c66b9e6887ef101c1de1f2/transformed/firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/ba340ebc7313f7b2e6ddd4ecf2e9bb5a/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/ba340ebc7313f7b2e6ddd4ecf2e9bb5a/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/93f5115b4ffa19682a6bc89fc9f7fae8/transformed/play-services-measurement-sdk-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/93f5115b4ffa19682a6bc89fc9f7fae8/transformed/play-services-measurement-sdk-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/64a2a4a95abb559aaae26905bec8c0e2/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/64a2a4a95abb559aaae26905bec8c0e2/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nayeongkim/.gradle/caches/transforms-3/60fa7b82517310776c4ef5697cfe8ef8/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/nayeongkim/.gradle/caches/transforms-3/60fa7b82517310776c4ef5697cfe8ef8/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e1c8c6e6e877bb1ef7c71fd5ed2d7897/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e1c8c6e6e877bb1ef7c71fd5ed2d7897/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/412aabec82265b60ab397efd1287e1cb/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/412aabec82265b60ab397efd1287e1cb/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/478b41dc645dec646de7dc2945affced/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/478b41dc645dec646de7dc2945affced/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/44b8ee52dca70985fd76f9e58a003d8a/transformed/play-services-measurement-base-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/44b8ee52dca70985fd76f9e58a003d8a/transformed/play-services-measurement-base-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/ba8d990271470c0301420875ab4b23ac/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/ba8d990271470c0301420875ab4b23ac/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/nayeongkim/.gradle/caches/transforms-3/2d725a430a7a4501c794f7568beb7d33/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/nayeongkim/.gradle/caches/transforms-3/2d725a430a7a4501c794f7568beb7d33/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/nayeongkim/.gradle/caches/transforms-3/a578a3e29d25e7991b518fa209f9655d/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/nayeongkim/.gradle/caches/transforms-3/a578a3e29d25e7991b518fa209f9655d/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/nayeongkim/.gradle/caches/transforms-3/7b9a1d6ca739278c8a3d94aa48258ac5/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/nayeongkim/.gradle/caches/transforms-3/7b9a1d6ca739278c8a3d94aa48258ac5/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/74d1e29d83de438b055be3a71e39ee65/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/74d1e29d83de438b055be3a71e39ee65/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/0f7be08ad9ad4bbb6d68fc8f33000e8d/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/0f7be08ad9ad4bbb6d68fc8f33000e8d/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/e9aa9a5ba5c629516bbb2bc5926dfef0/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/e9aa9a5ba5c629516bbb2bc5926dfef0/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/bd16ff7a313ed3db3fba9230544428c6/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/bd16ff7a313ed3db3fba9230544428c6/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/0ca415373ba5fa6f291ce18e64d6ddd4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/0ca415373ba5fa6f291ce18e64d6ddd4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/nayeongkim/.gradle/caches/transforms-3/7f38254a8e0890a7940e1dd2f1ed7f1f/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/nayeongkim/.gradle/caches/transforms-3/7f38254a8e0890a7940e1dd2f1ed7f1f/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/09c7b1df083b225ead64524570248875/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/09c7b1df083b225ead64524570248875/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/383879d62bc1da095369b72cfa66da7c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/383879d62bc1da095369b72cfa66da7c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/fceeabf3cf42d825f0e2dd9ba475ed79/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/fceeabf3cf42d825f0e2dd9ba475ed79/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/ac23efced9b07734696bc6fee29c68d7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/ac23efced9b07734696bc6fee29c68d7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/28777e7f27fe0682b2eb7d360ee2507b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/28777e7f27fe0682b2eb7d360ee2507b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/184f3905bfb0a7c0b89f68d254030be4/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/184f3905bfb0a7c0b89f68d254030be4/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/0ef0df4192c693b5aab01cb3fc78918a/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/0ef0df4192c693b5aab01cb3fc78918a/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/nayeongkim/.gradle/caches/transforms-3/1fe1424c39e010d38f00920f01d67163/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/nayeongkim/.gradle/caches/transforms-3/1fe1424c39e010d38f00920f01d67163/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/cbeace3ea65798d92cdedd366906eb04/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/cbeace3ea65798d92cdedd366906eb04/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/nayeongkim/.gradle/caches/transforms-3/ba6f039f195401e7b21999bba8b01206/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/nayeongkim/.gradle/caches/transforms-3/ba6f039f195401e7b21999bba8b01206/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/f2baea666d3fa9818ec155e7c3e1125f/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/f2baea666d3fa9818ec155e7c3e1125f/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/nayeongkim/.gradle/caches/transforms-3/afb51f8cf2da2d6f468e6aeb3d640b2b/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/nayeongkim/.gradle/caches/transforms-3/afb51f8cf2da2d6f468e6aeb3d640b2b/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/b580a9c84da5cee9d6fa2262702fa45f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/b580a9c84da5cee9d6fa2262702fa45f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/a5c0aaf553e6f2275018bfbdb9719b30/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/a5c0aaf553e6f2275018bfbdb9719b30/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/8d6edc8b3517cda970aa9d2811931e17/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/8d6edc8b3517cda970aa9d2811931e17/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nayeongkim/.gradle/caches/transforms-3/55d0b49c30dad1812bce8d6431afe018/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nayeongkim/.gradle/caches/transforms-3/55d0b49c30dad1812bce8d6431afe018/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/125c92fd5657cd8dca1b4e8fa8bb055a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/125c92fd5657cd8dca1b4e8fa8bb055a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/eec50ca15886977ec037c00d880f6428/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/eec50ca15886977ec037c00d880f6428/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/a82e65caed71655ac4629086f9005daa/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/a82e65caed71655ac4629086f9005daa/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/nayeongkim/.gradle/caches/transforms-3/5f4d35223edab27d3b17ed5858db6da1/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/nayeongkim/.gradle/caches/transforms-3/5f4d35223edab27d3b17ed5858db6da1/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/nayeongkim/.gradle/caches/transforms-3/32ea862d898d23f7b8baf007583ce275/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/nayeongkim/.gradle/caches/transforms-3/32ea862d898d23f7b8baf007583ce275/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/5ba08e7addf028e9d19a9d0358d58edd/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/5ba08e7addf028e9d19a9d0358d58edd/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/11eeaa94e59a835eb5fd7df39c4bed37/transformed/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/11eeaa94e59a835eb5fd7df39c4bed37/transformed/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/f8e1517e8709b179234ee66c4c7c4005/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/f8e1517e8709b179234ee66c4c7c4005/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/ecd282f6e7810760b56fe4416a9b7395/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/ecd282f6e7810760b56fe4416a9b7395/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/c906b583e31b2c8d524097c581f1a8ce/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/c906b583e31b2c8d524097c581f1a8ce/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/023459b500c5b6b43604c1da69093036/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/023459b500c5b6b43604c1da69093036/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/c08a69fcc05b4cae3560315c19cad20c/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/nayeongkim/.gradle/caches/transforms-3/c08a69fcc05b4cae3560315c19cad20c/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nayeongkim/Documents/kotlin/AppPush/app/src/main/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging-ktx:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/34ad1a5cb18db22f35126b33e50e4a7d/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:26:9-32:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/4437a6f77c95c47274aaf138d78a6881/transformed/firebase-analytics-ktx-21.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/4437a6f77c95c47274aaf138d78a6881/transformed/firebase-analytics-ktx-21.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:52:9-58:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:52:9-58:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/nayeongkim/.gradle/caches/transforms-3/631d15f43d61eb0c783f95d0e6111a7e/transformed/firebase-datatransport-18.1.4/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/nayeongkim/.gradle/caches/transforms-3/631d15f43d61eb0c783f95d0e6111a7e/transformed/firebase-datatransport-18.1.4/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/476af0e2f2b27a7cc1bfd2a292ff38fa/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/476af0e2f2b27a7cc1bfd2a292ff38fa/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/1d2930a7a79965cbb6871bdd417e7be2/transformed/firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/1d2930a7a79965cbb6871bdd417e7be2/transformed/firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/420f9f84f6f9a154897225be57d30c66/transformed/firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/420f9f84f6f9a154897225be57d30c66/transformed/firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging-ktx:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/34ad1a5cb18db22f35126b33e50e4a7d/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:28:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/420f9f84f6f9a154897225be57d30c66/transformed/firebase-common-20.1.1/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/420f9f84f6f9a154897225be57d30c66/transformed/firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging-ktx:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/34ad1a5cb18db22f35126b33e50e4a7d/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:27:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging-ktx:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/34ad1a5cb18db22f35126b33e50e4a7d/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging-ktx:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/34ad1a5cb18db22f35126b33e50e4a7d/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging-ktx:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/34ad1a5cb18db22f35126b33e50e4a7d/transformed/firebase-messaging-ktx-23.0.5/AndroidManifest.xml:30:17-126
+meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/4437a6f77c95c47274aaf138d78a6881/transformed/firebase-analytics-ktx-21.0.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/4437a6f77c95c47274aaf138d78a6881/transformed/firebase-analytics-ktx-21.0.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/4437a6f77c95c47274aaf138d78a6881/transformed/firebase-analytics-ktx-21.0.0/AndroidManifest.xml:12:17-126
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/b8477b2f6075ebfe2f34e945fcf616af/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/b8477b2f6075ebfe2f34e945fcf616af/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/5b34a20cefbc3e323a2df3a6130b056a/transformed/transport-runtime-3.1.5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/5b34a20cefbc3e323a2df3a6130b056a/transformed/transport-runtime-3.1.5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/1d2930a7a79965cbb6871bdd417e7be2/transformed/firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/1d2930a7a79965cbb6871bdd417e7be2/transformed/firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/8e9359343bb67bbbd0f61983eaec1654/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/8e9359343bb67bbbd0f61983eaec1654/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/64a2a4a95abb559aaae26905bec8c0e2/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/64a2a4a95abb559aaae26905bec8c0e2/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/478b41dc645dec646de7dc2945affced/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/478b41dc645dec646de7dc2945affced/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:26:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/8e9359343bb67bbbd0f61983eaec1654/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/8e9359343bb67bbbd0f61983eaec1654/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/64a2a4a95abb559aaae26905bec8c0e2/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/64a2a4a95abb559aaae26905bec8c0e2/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/478b41dc645dec646de7dc2945affced/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/478b41dc645dec646de7dc2945affced/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:26:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/8e9359343bb67bbbd0f61983eaec1654/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/8e9359343bb67bbbd0f61983eaec1654/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:28:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:31:9-38:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:33:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:34:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:32:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:35:13-37:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:36:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:36:25-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:44:9-51:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:47:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:46:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:45:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:55:13-57:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:57:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.5] /Users/nayeongkim/.gradle/caches/transforms-3/f827affe63f2807d16a5f47e0d4e079c/transformed/firebase-messaging-23.0.5/AndroidManifest.xml:56:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/nayeongkim/.gradle/caches/transforms-3/631d15f43d61eb0c783f95d0e6111a7e/transformed/firebase-datatransport-18.1.4/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/nayeongkim/.gradle/caches/transforms-3/631d15f43d61eb0c783f95d0e6111a7e/transformed/firebase-datatransport-18.1.4/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/nayeongkim/.gradle/caches/transforms-3/631d15f43d61eb0c783f95d0e6111a7e/transformed/firebase-datatransport-18.1.4/AndroidManifest.xml:29:17-115
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/b8477b2f6075ebfe2f34e945fcf616af/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/1d2930a7a79965cbb6871bdd417e7be2/transformed/firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/1d2930a7a79965cbb6871bdd417e7be2/transformed/firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/8e9359343bb67bbbd0f61983eaec1654/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/8e9359343bb67bbbd0f61983eaec1654/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/64a2a4a95abb559aaae26905bec8c0e2/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/64a2a4a95abb559aaae26905bec8c0e2/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/478b41dc645dec646de7dc2945affced/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/478b41dc645dec646de7dc2945affced/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/b8477b2f6075ebfe2f34e945fcf616af/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:26:22-64
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/b8477b2f6075ebfe2f34e945fcf616af/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/5b34a20cefbc3e323a2df3a6130b056a/transformed/transport-runtime-3.1.5/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/5b34a20cefbc3e323a2df3a6130b056a/transformed/transport-runtime-3.1.5/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/b8477b2f6075ebfe2f34e945fcf616af/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/b8477b2f6075ebfe2f34e945fcf616af/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/b8477b2f6075ebfe2f34e945fcf616af/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/b8477b2f6075ebfe2f34e945fcf616af/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/b8477b2f6075ebfe2f34e945fcf616af/transformed/transport-backend-cct-3.1.5/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/5b34a20cefbc3e323a2df3a6130b056a/transformed/transport-runtime-3.1.5/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/5b34a20cefbc3e323a2df3a6130b056a/transformed/transport-runtime-3.1.5/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/5b34a20cefbc3e323a2df3a6130b056a/transformed/transport-runtime-3.1.5/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/5b34a20cefbc3e323a2df3a6130b056a/transformed/transport-runtime-3.1.5/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/5b34a20cefbc3e323a2df3a6130b056a/transformed/transport-runtime-3.1.5/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/5b34a20cefbc3e323a2df3a6130b056a/transformed/transport-runtime-3.1.5/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] /Users/nayeongkim/.gradle/caches/transforms-3/5b34a20cefbc3e323a2df3a6130b056a/transformed/transport-runtime-3.1.5/AndroidManifest.xml:33:13-132
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/476af0e2f2b27a7cc1bfd2a292ff38fa/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/476af0e2f2b27a7cc1bfd2a292ff38fa/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/476af0e2f2b27a7cc1bfd2a292ff38fa/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:16:17-113
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/64a2a4a95abb559aaae26905bec8c0e2/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/64a2a4a95abb559aaae26905bec8c0e2/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/412aabec82265b60ab397efd1287e1cb/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/412aabec82265b60ab397efd1287e1cb/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/478b41dc645dec646de7dc2945affced/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/478b41dc645dec646de7dc2945affced/transformed/play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/e99f4f063d37034f2273d548708e33b3/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/1d2930a7a79965cbb6871bdd417e7be2/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/1d2930a7a79965cbb6871bdd417e7be2/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/1d2930a7a79965cbb6871bdd417e7be2/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/420f9f84f6f9a154897225be57d30c66/transformed/firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/420f9f84f6f9a154897225be57d30c66/transformed/firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/420f9f84f6f9a154897225be57d30c66/transformed/firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/420f9f84f6f9a154897225be57d30c66/transformed/firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/420f9f84f6f9a154897225be57d30c66/transformed/firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/nayeongkim/.gradle/caches/transforms-3/420f9f84f6f9a154897225be57d30c66/transformed/firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/cd308d673dc5a0bee274eb37fadf5085/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/cd308d673dc5a0bee274eb37fadf5085/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/cd308d673dc5a0bee274eb37fadf5085/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/nayeongkim/.gradle/caches/transforms-3/cd308d673dc5a0bee274eb37fadf5085/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/64a2a4a95abb559aaae26905bec8c0e2/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/64a2a4a95abb559aaae26905bec8c0e2/transformed/play-services-measurement-impl-21.0.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/298771287c6393eee4e12c378f7bf947/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/ba8d990271470c0301420875ab4b23ac/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/ba8d990271470c0301420875ab4b23ac/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/ba8d990271470c0301420875ab4b23ac/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/0f7be08ad9ad4bbb6d68fc8f33000e8d/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nayeongkim/.gradle/caches/transforms-3/55d0b49c30dad1812bce8d6431afe018/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nayeongkim/.gradle/caches/transforms-3/55d0b49c30dad1812bce8d6431afe018/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/125c92fd5657cd8dca1b4e8fa8bb055a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/125c92fd5657cd8dca1b4e8fa8bb055a/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/0f7be08ad9ad4bbb6d68fc8f33000e8d/transformed/emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/0f7be08ad9ad4bbb6d68fc8f33000e8d/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/0f7be08ad9ad4bbb6d68fc8f33000e8d/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/0f7be08ad9ad4bbb6d68fc8f33000e8d/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/0f7be08ad9ad4bbb6d68fc8f33000e8d/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/0f7be08ad9ad4bbb6d68fc8f33000e8d/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/nayeongkim/.gradle/caches/transforms-3/0f7be08ad9ad4bbb6d68fc8f33000e8d/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nayeongkim/.gradle/caches/transforms-3/55d0b49c30dad1812bce8d6431afe018/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nayeongkim/.gradle/caches/transforms-3/55d0b49c30dad1812bce8d6431afe018/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/nayeongkim/.gradle/caches/transforms-3/55d0b49c30dad1812bce8d6431afe018/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
