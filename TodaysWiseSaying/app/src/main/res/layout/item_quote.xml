@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:app="http://schemas.android.com/apk/res-auto"
-  xmlns:tools="http://schemas.android.com/tools"
-  android:layout_width="match_parent"
-  android:layout_height="match_parent"
-  android:padding="20dp">
-
-  <TextView
-    android:id="@+id/quote"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:gravity="end|center_vertical"
-    app:layout_constraintBottom_toTopOf="@id/name"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_chainStyle="packed"
-    tools:text="명언" />
+    android:layout_height="match_parent"
+    android:padding="20dp">
 
-  <TextView
-    android:id="@+id/name"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:gravity="end|center_vertical"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="@id/quote"
-    app:layout_constraintStart_toStartOf="@id/quote"
-    app:layout_constraintTop_toBottomOf="@id/quote"
-    tools:text="인물" />
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="end|center_vertical"
+        android:maxLines="2"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@id/name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:ignore="SpUsage"
+        tools:text="명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="end|center_vertical"
+        android:maxLines="1"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/quote"
+        app:layout_constraintStart_toStartOf="@id/quote"
+        app:layout_constraintTop_toBottomOf="@id/quote"
+        tools:text="인물"
+        tools:ignore="SpUsage" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
