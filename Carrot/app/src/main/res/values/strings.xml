@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">Carrot</string>
+  <string name="home">홈</string>
+  <string name="chatList">채팅</string>
+  <string name="myPage">나의 정보</string>
+  <string name="mainTitle">중고 거래</string>
+</resources>

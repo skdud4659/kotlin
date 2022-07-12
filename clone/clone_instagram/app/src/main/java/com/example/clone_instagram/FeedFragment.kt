@@ -72,10 +72,13 @@ class FeedFragment: Fragment() {
     }
     
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
+      Log.d("logggggg", "ㅗㅁ러ㅐ냐얼")
       return ViewHolder(inflater.inflate(R.layout.post_item, parent, false))
     }
     
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+  
+      Log.d("logggggg", "ㅗㅁ러ㅐ냐얼22222")
       val post = list.get(position)
       holder.writerName.text = post.owner_profile.username
       holder.content.text = post.content
