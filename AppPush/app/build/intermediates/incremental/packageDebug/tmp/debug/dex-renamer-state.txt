@@ -1,4 +1,4 @@
-#Tue Jun 07 14:47:01 KST 2022
+#Wed Jul 13 15:50:14 KST 2022
 base.2=/Users/nayeongkim/Documents/kotlin/AppPush/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
 path.2=15/classes.dex
 base.1=/Users/nayeongkim/Documents/kotlin/AppPush/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex

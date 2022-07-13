@@ -8,13 +8,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">appPush</string>
-    <string name="default_web_client_id" translatable="false">372405691055-pahnq6ae8elq1l4mfctcctfp6ieo8mqf.apps.googleusercontent.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">372405691055</string>
-    <string name="google_api_key" translatable="false">AIzaSyB4kJf80Af4wVFycuR1SAg7TtJhyyUXYNI</string>
-    <string name="google_app_id" translatable="false">1:372405691055:android:49e6594f819d8c15586a5a</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB4kJf80Af4wVFycuR1SAg7TtJhyyUXYNI</string>
-    <string name="google_storage_bucket" translatable="false">aop-part3-chapter01-33be1.appspot.com</string>
-    <string name="project_id" translatable="false">aop-part3-chapter01-33be1</string>
+    <string name="default_web_client_id" translatable="false">131872364016-k6j97h9pa1ck2uvpfrfpe0hl9qihetg5.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">131872364016</string>
+    <string name="google_api_key" translatable="false">AIzaSyCJLDfrtFudqJao3UncPy1OBgXWpFfQf1Q</string>
+    <string name="google_app_id" translatable="false">1:131872364016:android:722fa4c9b65162cf3eb935</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCJLDfrtFudqJao3UncPy1OBgXWpFfQf1Q</string>
+    <string name="google_storage_bucket" translatable="false">apppush-be930.appspot.com</string>
+    <string name="project_id" translatable="false">apppush-be930</string>
     <style name="Theme.AppPush" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
     <!-- Primary brand color. -->
     <item name="colorPrimary">@color/purple_500</item>
