@@ -7,11 +7,11 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mapsearch.databinding.ViewholderSearchResultItemBinding
-import com.example.mapsearch.model.SearchModel
+import com.example.mapsearch.model.SearchResultEntity
 
-class SearchRecyclerAdapter: ListAdapter<SearchModel, SearchRecyclerAdapter.ViewHolder>(diffUtil) {
+class SearchRecyclerAdapter: ListAdapter<SearchResultEntity, SearchRecyclerAdapter.ViewHolder>(diffUtil) {
   inner class ViewHolder(val binding: ViewholderSearchResultItemBinding): RecyclerView.ViewHolder(binding.root) {
-    fun bindData(data: SearchModel) = with(binding) {
+    fun bindData(data: SearchResultEntity) = with(binding) {
       searchItemTitle.text = data.name
       searchItemSubTitle.text = data.fullAddress
     }
@@ -33,12 +33,12 @@ class SearchRecyclerAdapter: ListAdapter<SearchModel, SearchRecyclerAdapter.View
   }
   
   companion object {
-    val diffUtil = object: DiffUtil.ItemCallback<SearchModel>() {
-      override fun areItemsTheSame(oldItem: SearchModel, newItem: SearchModel): Boolean {
+    val diffUtil = object: DiffUtil.ItemCallback<SearchResultEntity>() {
+      override fun areItemsTheSame(oldItem: SearchResultEntity, newItem: SearchResultEntity): Boolean {
         return oldItem == newItem
       }
   
-      override fun areContentsTheSame(oldItem: SearchModel, newItem: SearchModel): Boolean {
+      override fun areContentsTheSame(oldItem: SearchResultEntity, newItem: SearchResultEntity): Boolean {
         return oldItem == newItem
       }
     }
